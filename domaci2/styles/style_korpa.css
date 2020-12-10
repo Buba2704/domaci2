@@ -1,0 +1,399 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Amatic SC';
+}
+.header{
+    /* border-bottom: red; */
+    /* background-color: burlywood; */
+    
+}
+.page{
+    /* border: 1px solid red; */
+    background-image: url(../slike/Pozadine/pcelice.png);
+    background-size: 15%;
+}
+.footer{
+  
+}
+.kolona{
+    width: 70%;
+    margin: 0px auto;
+    /* border: 1px solid purple; */
+}
+
+.page .kolona{
+    height: 1650px;
+    font-weight: bold;
+    background-color: white;
+    padding: 0px 10px;
+}
+#logo-i-social{
+    display: flex;
+}
+#logo{
+    flex-grow: 1;
+    align-items: center;
+}
+#logo img{
+    width: 80px;
+}
+#social{
+    flex-grow: 1;
+    text-align: right;
+}
+#social a{
+    text-decoration: none;
+}
+#social a img{
+    width: 30px;
+    margin: 10px 5px;
+}
+
+
+/* ******************************** */
+
+
+
+#main-manu{
+    display: flex;
+    font-size: 22px;
+}
+#main-manu div img{
+    width: 22px;
+}
+#main-manu > div{
+    flex-grow: 1;
+    /* flex-basis: 0; */
+    /* border: 1px solid black; */
+    position: relative;
+    background-color: rgb(191, 132, 5);
+}
+#main-manu  > div > a{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(191, 132, 5);
+    transition: 300ms;
+    padding: 10px;
+}
+
+#main-manu > div > a:hover{
+    background-color:   rgb(255, 212, 118);
+    color: rgb(191, 132, 5);
+}
+#main-manu > div > div > a{
+    display: block;
+    padding: 5px 0px;
+    text-decoration: none;
+    color: white;
+    border-bottom: 1px solid white;
+    text-align: center;
+    margin: 0px;
+}
+#main-manu > div > div{
+    display: none;
+    position: absolute;
+    width: 100%;
+    background-color: rgb(191, 132, 5);
+}
+#main-manu > div > div > a:hover{
+    background-color: rgb(255, 212, 118);
+    color: rgb(191, 132, 5);
+}
+#main-manu > div:hover > div{
+    display: block;
+}
+#main-manu > div > .aktivan{
+    background-color: rgb(169, 116, 3);
+}
+
+
+.info_artikal{
+    border: 3px solid chocolate;
+    width: 100%;
+    height: 40px;
+    display: block;
+    display: flex;
+    /* border: 1px solid black; */
+    text-align: center;
+    margin: 2.5px auto;
+    margin-top: 10px;
+    /* margin: 1vh auto; */
+}
+
+.info_artikal>div>p{
+    margin: 8px auto;
+}
+
+
+
+
+.artikal{
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 30px;
+    display: block;
+    display: flex;
+    /* border: 1px solid black; */
+    text-align: center;
+    margin: 2.5px auto;
+    border-bottom: 1px solid orange;
+}
+
+.ime_artikla{
+    /* border: 1px solid blue; */
+    width: 300px;
+}
+.dugmici_artikla{
+    /* border: 1px solid blue; */
+    width: 190px;
+}
+.kolicina_artikla{
+    /* border: 1px solid blue; */
+    width: 100px;
+}
+.nista{
+    /* border: 1px solid blue; */
+    width: 50%;
+}
+.jedinicna_cena_artikla{
+    /* border: 1px solid blue; */
+    width: 100px;
+}
+.artikal>div>p{
+    margin: 4px auto;
+}
+
+
+
+.kasa{
+    /* display: block; */
+    display: flex;
+    /* border: 2px solid black; */
+    margin: 10px auto;
+    height: 60px;
+    text-align: center;
+    border-bottom:1px solid orange;
+    border-top:2px solid rgb(255, 153, 0);
+}
+
+.slika_kasa{
+    /* border: 1px solid black; */
+    flex-grow: 0.5;
+}
+.slika_kasa>div{
+    margin: 3px auto;
+    /* border: 1px solid black; */
+    width: 50px;
+}
+.slika_kasa>div>img{
+    width: 40px;
+}
+.nista_kasa{
+    /* border: 1px solid black; */
+    flex-grow: 9;
+    /* background-color: chartreuse; */
+    display: flex;
+    align-items: flex-end;
+}
+.ukupno_naziv{
+    /* border: 1px solid blue; */
+    flex-grow: 1;
+    font-size: 20px;
+}
+.ukupno_cena{
+    /* border: 1px solid blue; */
+    flex-grow: 1;
+    font-size: 22px;
+}
+
+.vise{
+    border: none;
+    padding: 3px 20px;
+    background-color: rgb(215, 255, 134);
+    font-size: 15px;
+}.manje{
+    border: none;
+    padding: 3px 20px;
+    background-color: rgb(255, 128, 128);
+    font-size: 15px;
+}
+.vise:hover{
+    background-color: rgb(0, 121, 50);
+    color: white;
+}
+.manje:hover{
+    background-color: rgb(136, 5, 5);
+    color: white;
+}
+
+.dugme{
+    width: 10%;
+    height: 80%;
+    /* background-color: blueviolet; */
+    /* margin: 0px auto; */
+    flex-grow: 1;
+    text-align: right;
+    font-size: 18px;
+    margin-right: 5%;
+}
+.dugme>button{
+    background-color: none;
+    border: 1px solid black;
+    height: 40px;
+    font-family: 'Amatic SC';font-size: 22px;
+    transition: 500ms;
+    width: 100px;
+}
+.dugme>button:hover{
+    background-color: rgb(136, 5, 5);
+    color: white;
+}
+
+
+
+#slika_shop{
+    /* background-color: yellow; */
+    /* border: 1px solid blue; */
+    /* flex-grow: 10; */
+    margin-left: 10px;
+    width:50%;
+   /*float: left;*/
+   max-width: 50vh;
+  
+}
+#slika_shop>img{
+    width: 100%;
+    float: left;
+    /* border: 1px solid red; */
+}
+
+
+
+
+.signup-form{
+    /* border: 2px solid black; */
+    flex-grow: 1;
+    margin-right: 30px;
+    float: right;
+    width: 30%;
+    max-width: 50vh;
+}
+.signup-form h1{
+  margin-top: 10px;
+  color: black;
+  font-size: 40px;
+}
+.signup-form input{
+  display: block;
+  width: 100%;
+  padding: 0 16px;
+  height: 44px;
+  text-align: center;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+.txtb{
+  margin: 10px 0;
+  background: rgba(255,255,255,.5);
+  border-radius: 6px;
+}
+::placeholder {
+  color:darkgreen;
+  font-size: 13px;
+}
+.signup-btn{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background: #FFAE3A;
+  color: #fff;
+  border-radius: 44px;
+  transition: 0.8s;
+  font-weight: bold;
+}
+.signup-btn:hover{
+  transform: scale(0.96);
+}
+.close-btn{
+  margin-top: 0px;
+  margin-bottom: 20px;
+  background: #FF5733;
+  color: #fff;
+  border-radius: 44px;
+  cursor: pointer;
+  transition: 0.8s;
+  font-weight: bold;
+  font-size: 20px;
+  border-bottom: none ;
+}
+.close-btn:hover{
+  transform: scale(0.96);
+}
+
+.signup-form #Zatvori a{
+  text-decoration: none;
+}
+
+.signup-form #postojiNalog a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 14px;
+  padding: 10px;
+  transition: 0.8s;
+  display: block;
+}
+.signup-form #postojiNalog a:hover{
+  background: rgba(0,0,0,.3);
+}
+select {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  font-size: 14px;
+  background-color: #FFAE3A;
+  color: white;
+}
+
+.radio-toolbar {
+    margin: 10px;
+    display: flex;
+    /* border: 1px solid red; */
+}
+
+.radio-toolbar input[type="radio"] {
+  opacity: 0;
+  position: fixed;
+  width: 0;
+}
+
+.radio-toolbar label {
+    display: inline-block;
+    background-color: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: 1px solid #444;
+    border-radius: 4px;
+    flex-grow: 1;
+}
+
+.radio-toolbar label:hover {
+  background-color: #dfd;
+}
+
+  
+
+.radio-toolbar input[type="radio"]:checked + label {
+    background-color: #FFAE3A;
+    border-color: #ffa01a;
+    border: 2px solid #444;
+}
+#greska {
+    color: white;
+    font-weight: bold;
+    padding-bottom: 20px;
+}

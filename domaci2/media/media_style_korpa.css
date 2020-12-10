@@ -1,0 +1,120 @@
+@media all and (max-width:1300px){
+    .kolona{
+        width: 90%;
+    }
+    .page{
+        background: none;
+    }
+}
+@media all and (max-width:1010){
+    
+}
+
+@media all and (max-width:850px){
+    .nista{
+        width: 30%;
+    }
+    .signup-form h1{
+      font-size: 30px;
+    }
+    .txtb{
+      margin: 0px;
+    }
+    #jca{
+        font-size: 12px;
+    }
+}
+@media all and (max-width:710px){
+    #slika_shop{
+        width: 0px;
+    }
+    .signup-form{
+        width: 80%;
+        margin-right: 0px;
+    }
+}
+@media all and (max-width:510px){
+    #social a img{
+        width: 25px;
+        margin: 10px 3px;
+    }
+    #logo img{
+        width: 60px;
+    }
+    #main-manu div{
+        font-size: 15px;
+    }
+    #main-manu div img{
+        width: 15px;
+    }
+    .nista{
+        width: 0%;
+    }
+    .info_artikal{
+        font-size: 12px;
+    }
+    .artikal{
+        font-size: 12px;
+        height: 25px;
+    }
+    .kasa>div, .kasa>div>div{
+        font-size: 14px;
+    }
+    .dugme>button{
+        width: 60px;
+        font-size: 14px;
+    }
+    #rez{
+        font-size: 20px;
+    }
+    .slika_kasa{
+        margin-top: 10px;
+    }
+    .slika_kasa>div>img{
+        width: 25px;
+    }
+    .slika_kasa>div{
+        margin: 3px auto;
+        width: 30px;
+    }
+}
+
+@media all and (max-width:400px){
+    #main-manu div{
+        font-size: 12px;
+    }
+    #main-manu div img{
+        width: 11px;
+    }
+    .signup-form{
+        width: 100%;
+    }
+    .vise, .manje{
+        width: 40%;
+        padding: 3px 10px;
+    }
+}
+
+@media all and (max-width:320px){
+    #main-manu div img{
+        width: 10px;
+    }
+    #main-manu  > div > a{
+        padding: 5px;
+    }
+    #social a img{
+        width: 15px;
+        margin: 10px 3px;
+    }
+    #logo img{
+        width: 45px;
+    }
+    .dugme>button{
+        width: 50px;
+        font-size: 14px;
+    }
+    .radio-toolbar label {
+        font-size: 12px;
+    }
+    
+}

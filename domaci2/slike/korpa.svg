@@ -1,0 +1,1193 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr" prefix="og: http://ogp.me/ns#">
+  <head>
+    <title>Online Shopping Cart Abandonment: The Next Challenge for Retailers  | RIS News</title>
+            <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-2805980-4', 'auto');
+                  ga('set', 'dimension1', 'article');
+                  ga('set', 'dimension2', 'Digital\u0020Commerce');
+                  ga('set', 'dimension3', 'jgoodman');
+            ga('send', 'pageview');
+    </script>
+        <meta charset="utf-8" />
+<meta name="title" content="Online Shopping Cart Abandonment: The Next Challenge for Retailers  | RIS News" />
+<meta property="og:site_name" content="RIS News" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://risnews.com/online-shopping-cart-abandonment-next-challenge-retailers" />
+<meta property="og:title" content="Online Shopping Cart Abandonment: The Next Challenge for Retailers" />
+<meta property="og:image" content="https://assets1.risnews.com/styles/primary_articles/s3/2018-04/Upsell-Downsell.jpg?itok=AREwL7Qw" />
+<meta property="og:image:width" content="500" />
+<meta property="og:image:height" content="400" />
+<meta name="Generator" content="Drupal 8 (https://www.drupal.org)" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="viewport" content="width=device-width" />
+<meta content="ie=edge, chrome=1" http-equiv="x-ua-compatible" /><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={licenseKey:"75542ad5ca",applicationID:"56496662"};window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var i=t[n]={exports:{}};e[n][0].call(i.exports,function(t){var i=e[n][1][t];return r(i||t)},i,i.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var i=0;i<n.length;i++)r(n[i]);return r}({1:[function(e,t,n){function r(){}function i(e,t,n){return function(){return o(e,[u.now()].concat(c(arguments)),t?null:this,n),t?void 0:this}}var o=e("handle"),a=e(6),c=e(7),f=e("ee").get("tracer"),u=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var d=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],p="api-",l=p+"ixn-";a(d,function(e,t){s[t]=i(p+t,!0,"api")}),s.addPageAction=i(p+"addPageAction",!0),s.setCurrentRouteName=i(p+"routeName",!0),t.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,t){var n={},r=this,i="function"==typeof t;return o(l+"tracer",[u.now(),e,n],r),function(){if(f.emit((i?"":"no-")+"fn-start",[u.now(),r,i],n),i)try{return t.apply(this,arguments)}catch(e){throw f.emit("fn-err",[arguments,this,e],n),e}finally{f.emit("fn-end",[u.now()],n)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){m[t]=i(l+t)}),newrelic.noticeError=function(e,t){"string"==typeof e&&(e=new Error(e)),o("err",[e,u.now(),!1,t])}},{}],2:[function(e,t,n){function r(){return c.exists&&performance.now?Math.round(performance.now()):(o=Math.max((new Date).getTime(),o))-a}function i(){return o}var o=(new Date).getTime(),a=o,c=e(8);t.exports=r,t.exports.offset=a,t.exports.getLastTimestamp=i},{}],3:[function(e,t,n){function r(e,t){var n=e.getEntries();n.forEach(function(e){"first-paint"===e.name?d("timing",["fp",Math.floor(e.startTime)]):"first-contentful-paint"===e.name&&d("timing",["fcp",Math.floor(e.startTime)])})}function i(e,t){var n=e.getEntries();n.length>0&&d("lcp",[n[n.length-1]])}function o(e){e.getEntries().forEach(function(e){e.hadRecentInput||d("cls",[e])})}function a(e){if(e instanceof m&&!g){var t=Math.round(e.timeStamp),n={type:e.type};t<=p.now()?n.fid=p.now()-t:t>p.offset&&t<=Date.now()?(t-=p.offset,n.fid=p.now()-t):t=p.now(),g=!0,d("timing",["fi",t,n])}}function c(e){d("pageHide",[p.now(),e])}if(!("init"in NREUM&&"page_view_timing"in NREUM.init&&"enabled"in NREUM.init.page_view_timing&&NREUM.init.page_view_timing.enabled===!1)){var f,u,s,d=e("handle"),p=e("loader"),l=e(5),m=NREUM.o.EV;if("PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){f=new PerformanceObserver(r);try{f.observe({entryTypes:["paint"]})}catch(v){}u=new PerformanceObserver(i);try{u.observe({entryTypes:["largest-contentful-paint"]})}catch(v){}s=new PerformanceObserver(o);try{s.observe({type:"layout-shift",buffered:!0})}catch(v){}}if("addEventListener"in document){var g=!1,y=["click","keydown","mousedown","pointerdown","touchstart"];y.forEach(function(e){document.addEventListener(e,a,!1)})}l(c)}},{}],4:[function(e,t,n){function r(e,t){if(!i)return!1;if(e!==i)return!1;if(!t)return!0;if(!o)return!1;for(var n=o.split("."),r=t.split("."),a=0;a<r.length;a++)if(r[a]!==n[a])return!1;return!0}var i=null,o=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var c=navigator.userAgent,f=c.match(a);f&&c.indexOf("Chrome")===-1&&c.indexOf("Chromium")===-1&&(i="Safari",o=f[1])}t.exports={agent:i,version:o,match:r}},{}],5:[function(e,t,n){function r(e){function t(){e(a&&document[a]?document[a]:document[i]?"hidden":"visible")}"addEventListener"in document&&o&&document.addEventListener(o,t,!1)}t.exports=r;var i,o,a;"undefined"!=typeof document.hidden?(i="hidden",o="visibilitychange",a="visibilityState"):"undefined"!=typeof document.msHidden?(i="msHidden",o="msvisibilitychange"):"undefined"!=typeof document.webkitHidden&&(i="webkitHidden",o="webkitvisibilitychange",a="webkitVisibilityState")},{}],6:[function(e,t,n){function r(e,t){var n=[],r="",o=0;for(r in e)i.call(e,r)&&(n[o]=t(r,e[r]),o+=1);return n}var i=Object.prototype.hasOwnProperty;t.exports=r},{}],7:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,i=n-t||0,o=Array(i<0?0:i);++r<i;)o[r]=e[t+r];return o}t.exports=r},{}],8:[function(e,t,n){t.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,t,n){function r(){}function i(e){function t(e){return e&&e instanceof r?e:e?f(e,c,o):o()}function n(n,r,i,o){if(!p.aborted||o){e&&e(n,r,i);for(var a=t(i),c=v(n),f=c.length,u=0;u<f;u++)c[u].apply(a,r);var d=s[w[n]];return d&&d.push([b,n,r,a]),a}}function l(e,t){h[e]=v(e).concat(t)}function m(e,t){var n=h[e];if(n)for(var r=0;r<n.length;r++)n[r]===t&&n.splice(r,1)}function v(e){return h[e]||[]}function g(e){return d[e]=d[e]||i(n)}function y(e,t){u(e,function(e,n){t=t||"feature",w[n]=t,t in s||(s[t]=[])})}var h={},w={},b={on:l,addEventListener:l,removeEventListener:m,emit:n,get:g,listeners:v,context:t,buffer:y,abort:a,aborted:!1};return b}function o(){return new r}function a(){(s.api||s.feature)&&(p.aborted=!0,s=p.backlog={})}var c="nr@context",f=e("gos"),u=e(6),s={},d={},p=t.exports=i();p.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(i.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(o){}return e[t]=r,r}var i=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){i.buffer([e],r),i.emit(e,t,n)}var i=e("ee").get("handle");t.exports=r,r.ee=i},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,o,function(){return i++})}var i=1,o="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!E++){var e=b.info=NREUM.info,t=p.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return u.abort();f(h,function(t,n){e[t]||(e[t]=n)});var n=a();c("mark",["onload",n+b.offset],null,"api"),c("timing",["load",n]);var r=p.createElement("script");r.src="https://"+e.agent,t.parentNode.insertBefore(r,t)}}function i(){"complete"===p.readyState&&o()}function o(){c("mark",["domContent",a()+b.offset],null,"api")}var a=e(2),c=e("handle"),f=e(6),u=e("ee"),s=e(4),d=window,p=d.document,l="addEventListener",m="attachEvent",v=d.XMLHttpRequest,g=v&&v.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:v,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var y=""+location,h={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1184.min.js"},w=v&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),b=t.exports={offset:a.getLastTimestamp(),now:a,origin:y,features:{},xhrWrappable:w,userAgent:s};e(1),e(3),p[l]?(p[l]("DOMContentLoaded",o,!1),d[l]("load",r,!1)):(p[m]("onreadystatechange",i),d[m]("onload",r)),c("mark",["firstbyte",a.getLastTimestamp()],null,"api");var E=0},{}],"wrap-function":[function(e,t,n){function r(e){return!(e&&e instanceof Function&&e.apply&&!e[a])}var i=e("ee"),o=e(7),a="nr@original",c=Object.prototype.hasOwnProperty,f=!1;t.exports=function(e,t){function n(e,t,n,i){function nrWrapper(){var r,a,c,f;try{a=this,r=o(arguments),c="function"==typeof n?n(r,a):n||{}}catch(u){p([u,"",[r,a,i],c])}s(t+"start",[r,a,i],c);try{return f=e.apply(a,r)}catch(d){throw s(t+"err",[r,a,d],c),d}finally{s(t+"end",[r,a,f],c)}}return r(e)?e:(t||(t=""),nrWrapper[a]=e,d(e,nrWrapper),nrWrapper)}function u(e,t,i,o){i||(i="");var a,c,f,u="-"===i.charAt(0);for(f=0;f<t.length;f++)c=t[f],a=e[c],r(a)||(e[c]=n(a,u?c+i:i,o,c))}function s(n,r,i){if(!f||t){var o=f;f=!0;try{e.emit(n,r,i,t)}catch(a){p([a,n,r,i])}f=o}}function d(e,t){if(Object.defineProperty&&Object.keys)try{var n=Object.keys(e);return n.forEach(function(n){Object.defineProperty(t,n,{get:function(){return e[n]},set:function(t){return e[n]=t,t}})}),t}catch(r){p([r])}for(var i in e)c.call(e,i)&&(t[i]=e[i]);return t}function p(t){try{e.emit("internal-error",t)}catch(n){}}return e||(e=i),n.inPlace=u,n.flag=a,n}},{}]},{},["loader"]);</script>
+<meta http-equiv="ImageToolbar" content="false" />
+<link rel="preconnect" href="https://fonts.googleapis.com/" />
+<link rel="preconnect" href="https://www.googletagservices.com/" />
+<link rel="preconnect" href="https://www.googleadservices.com/" />
+<link rel="preconnect" href="https://securepubads.g.doubleclick.net/" />
+<link rel="preconnect" href="https://googleads.g.doubleclick.net/" />
+<link rel="preconnect" href="https://fonts.gstatic.com/" />
+<link rel="preconnect" href="https://www.google-analytics.com/" />
+<link rel="preconnect" href="https://tpc.googlesyndication.com/" />
+<link rel="preconnect" href="https://pagead2.googlesyndication.com/" />
+<link rel="preconnect" href="https://olytics.omeda.com/" />
+<link rel="preconnect" href="https://clientcdn.pushengage.com/" />
+<link rel="preconnect" href="https://www.linkedin.com/" />
+<link rel="preconnect" href="https://connect.facebook.net/" />
+<link rel="preconnect" href="https://www.facebook.com/" />
+<link rel="preconnect" href="https://dc.ads.linkedin.com" />
+<link rel="preconnect" href="https://cdnjs.cloudflare.com/" />
+<script type="text/javascript">
+  // Initialize the google variables.
+  var googletag = googletag || {};
+  googletag.cmd = googletag.cmd || [];
+  // Add a place to store the slot name variable.
+  googletag.slots = googletag.slots || {};
+  (function() {
+    var useSSL = "https:" == document.location.protocol;
+    var src = (useSSL ? 'https:' : 'http:') + '//www.googletagservices.com/tag/js/gpt.js';
+    document.write('<scr' + 'ipt src="' + src + '"></scr' + 'ipt>');
+  })();
+
+  // Get a cookie by name
+  function getTargetingCookie(name) {
+    var cookies = document.cookie.split(';');
+    var i = 0;
+    var target = '';
+    while (i < cookies.length && target == '') {
+      if (cookies[i].indexOf(name) > -1) {
+        target = cookies[i].split('=').pop();
+        break;
+      }
+      i++;
+    }
+
+    return target;
+  }
+
+</script>
+<script type="text/javascript">
+        // Start by defining breakpoints for this ad.
+      var mapping = googletag.sizeMapping()
+              .addSize([100, 2], [600, 450])
+            .build();
+  
+  googletag.slots["interstitial_1"] = googletag.defineSlot("/86468407/risnews/ris-interstitial-1", [600, 450], "js-dfp-tag-interstitial_1")
+
+    .addService(googletag.pubads())
+
+  
+  
+  
+      .setTargeting('ris-topic', ['Digital\u0020Commerce','E\u002DCommerce','E\u002DCommerce\u0020Platform','Customer\u0020Experience'])
+      .setTargeting('ris-content-type', ['article'])
+      .setTargeting('ris-blog-series', ['default'])
+      .setTargeting('sponsored', ['false'])
+      .setTargeting('ad-targeting-id', ['10735'])
+        // Apply size mapping when there are breakpoints.
+    .defineSizeMapping(mapping)
+    ;
+
+    // Adding uncacheable targets.
+  if (typeof referrer != "undefined" && referrer) {
+    googletag.slots["interstitial_1"].setTargeting('referrer-topic', [referrer]);
+  }
+  if (typeof company != "undefined" && company && company != 'None') {
+    googletag.slots["interstitial_1"].setTargeting('visitor-company', [company]);
+  }
+
+
+</script>
+<script type="text/javascript">
+        // Start by defining breakpoints for this ad.
+      var mapping = googletag.sizeMapping()
+              .addSize([1024, 90], [300, 250])
+              .addSize([0, 0], [320, 50])
+            .build();
+  
+  googletag.slots["content_sidebar"] = googletag.defineSlot("/86468407/risnews/ris-contentpage-sidebar-1", [300, 250], "js-dfp-tag-content_sidebar")
+
+    .addService(googletag.pubads())
+
+  
+  
+  
+      .setTargeting('ris-content-type', ['article'])
+      .setTargeting('ris-topic', ['Digital\u0020Commerce','E\u002DCommerce','E\u002DCommerce\u0020Platform','Customer\u0020Experience'])
+      .setTargeting('ris-blog-series', ['default'])
+      .setTargeting('ad-targeting-id', ['10735'])
+      .setTargeting('sponsored', ['false'])
+        // Apply size mapping when there are breakpoints.
+    .defineSizeMapping(mapping)
+    ;
+
+    // Adding uncacheable targets.
+  if (typeof referrer != "undefined" && referrer) {
+    googletag.slots["content_sidebar"].setTargeting('referrer-topic', [referrer]);
+  }
+  if (typeof company != "undefined" && company && company != 'None') {
+    googletag.slots["content_sidebar"].setTargeting('visitor-company', [company]);
+  }
+
+
+</script>
+<script type="text/javascript">
+        // Start by defining breakpoints for this ad.
+      var mapping = googletag.sizeMapping()
+              .addSize([1024, 90], [728, 90])
+              .addSize([0, 0], [320, 50])
+            .build();
+  
+  googletag.slots["content_leader_2"] = googletag.defineSlot("/86468407/risnews/ris-contentpage-body-2", [728, 90], "js-dfp-tag-content_leader_2")
+
+    .addService(googletag.pubads())
+
+  
+  
+  
+      .setTargeting('ris-content-type', ['article'])
+      .setTargeting('ris-topic', ['Digital\u0020Commerce','E\u002DCommerce','E\u002DCommerce\u0020Platform','Customer\u0020Experience'])
+      .setTargeting('ris-blog-series', ['default'])
+      .setTargeting('ad-targeting-id', ['10735'])
+      .setTargeting('sponsored', ['false'])
+        // Apply size mapping when there are breakpoints.
+    .defineSizeMapping(mapping)
+    ;
+
+    // Adding uncacheable targets.
+  if (typeof referrer != "undefined" && referrer) {
+    googletag.slots["content_leader_2"].setTargeting('referrer-topic', [referrer]);
+  }
+  if (typeof company != "undefined" && company && company != 'None') {
+    googletag.slots["content_leader_2"].setTargeting('visitor-company', [company]);
+  }
+
+
+</script>
+<script type="text/javascript">
+        // Start by defining breakpoints for this ad.
+      var mapping = googletag.sizeMapping()
+              .addSize([1024, 90], [728, 90])
+              .addSize([0, 0], [320, 50])
+            .build();
+  
+  googletag.slots["content_leader"] = googletag.defineSlot("/86468407/risnews/ris-contentpage-body-1", [728, 90], "js-dfp-tag-content_leader")
+
+    .addService(googletag.pubads())
+
+  
+  
+  
+      .setTargeting('ris-content-type', ['article'])
+      .setTargeting('ris-topic', ['Digital\u0020Commerce','E\u002DCommerce','E\u002DCommerce\u0020Platform','Customer\u0020Experience'])
+      .setTargeting('ris-blog-series', ['default'])
+      .setTargeting('ad-targeting-id', ['10735'])
+      .setTargeting('sponsored', ['false'])
+        // Apply size mapping when there are breakpoints.
+    .defineSizeMapping(mapping)
+    ;
+
+    // Adding uncacheable targets.
+  if (typeof referrer != "undefined" && referrer) {
+    googletag.slots["content_leader"].setTargeting('referrer-topic', [referrer]);
+  }
+  if (typeof company != "undefined" && company && company != 'None') {
+    googletag.slots["content_leader"].setTargeting('visitor-company', [company]);
+  }
+
+
+</script>
+<script type="text/javascript">
+googletag.cmd.push(function() {
+      googletag.pubads().enableAsyncRendering();
+          googletag.pubads().collapseEmptyDivs(true);
+        googletag.pubads().disableInitialLoad();
+    });
+googletag.enableServices();
+</script>
+<link rel="shortcut icon" href="https://assets1.risnews.com/styles/large/s3/2020-03/favicon%20%284%29.png?itok=5Wl5cw8a" type="image/vnd.microsoft.icon" />
+<link rel="canonical" href="https://risnews.com/online-shopping-cart-abandonment-next-challenge-retailers" />
+<link rel="shortlink" href="https://risnews.com/node/10735" />
+<link rel="revision" href="https://risnews.com/online-shopping-cart-abandonment-next-challenge-retailers" />
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700|Open+Sans:300,400,700" rel="stylesheet">
+    <link rel="stylesheet" media="all" href="/modules/custom/ash_util/css/processing_indicator.css?qk6qd5" />
+<link rel="stylesheet" media="all" href="/sites/default/files/css/css_f4XQf-DW9zAh__g5bxZH0UMI6WdU88fsK9Ngl11yYqE.css" />
+<link rel="stylesheet" media="all" href="/sites/default/files/css/css_e2dhFUrYxqv5QXi9Pyt-6Jarw56ulGs4GSYEsL2bq3I.css" />
+<link rel="stylesheet" media="all" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+<link rel="stylesheet" media="all" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+
+    
+<!--[if lte IE 8]>
+<script src="/sites/default/files/js/js_VtafjXmRvoUgAzqzYTA3Wrjkx9wcWhjP0G4ZnnqRamA.js"></script>
+<![endif]-->
+<script src="/core/assets/vendor/modernizr/modernizr.min.js?v=3.3.1"></script>
+
+            <script type="text/javascript">
+        setTimeout(function(){var a=document.createElement("script");
+          var b=document.getElementsByTagName("script")[0];
+          a.src=document.location.protocol+"//script.crazyegg.com/pages/scripts/0052/0631.js?"+Math.floor(new Date().getTime()/3600000);
+          a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
+      </script>
+        </head>
+  <body class="role-anonymous lang-en section-online-shopping-cart-abandonment-next-challenge-retailers path-node node--type-article">
+      <input type="hidden" id="eiq-topic-name" value="Digital Commerce, E-Commerce, E-Commerce Platform, Customer Experience"/>
+        <input type="hidden" id="eiq-page-type" value="article"/>
+      <a href="#main-content" class="visually-hidden focusable skip-link">
+      Skip to main content
+    </a>
+          
+          <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+    
+<style type="text/css">
+  section:not(.interstitial-ad) div[id^="google_ads_iframe"]:before,
+  .content-native-advertisement:before,
+  .block-eiq-39.sponsored_ad a:before {
+    text-transform: uppercase;
+    content: 'Advertisement';
+  }
+</style>
+
+<section class="off-canvas-wrap " data-offcanvas>
+  <div class="inner-wrap" style="background-color: " >
+          <aside class="left-off-canvas-menu">
+        
+<ul class="off-canvas-list">
+  <li><a href="/">Home</a></li>
+      <li>
+      <a href="/store-systems" class="" >Store Systems</a>
+    </li>
+      <li>
+      <a href="/analytics" class="" >Analytics</a>
+    </li>
+      <li>
+      <a href="/digital-commerce" class="" >Digital Commerce</a>
+    </li>
+      <li>
+      <a href="/supply-chain-merchandising" class="" >Supply Chain / Merchandising</a>
+    </li>
+      <li>
+      <a href="/customer-engagement" class="" >Customer Engagement</a>
+    </li>
+      <li>
+      <a href="/latest-news" class="" >Latest Retail News</a>
+    </li>
+      <li>
+      <a href="https://risnews.com/research-reports" class="" >Research and Reports</a>
+    </li>
+      <li>
+      <a href="https://risnews.com/events-0" class="" >Events</a>
+    </li>
+      <li>
+      <a href="/webinars" class="" >Webinars</a>
+    </li>
+      <li>
+      <a href="https://risnews.com/trendagrams" class="" >Infographics</a>
+    </li>
+      <li>
+      <a href="/ris-talks" class="" >Case Studies / Q&amp;As</a>
+    </li>
+      <li>
+      <a href="/video" class="" >Video</a>
+    </li>
+      <li>
+      <a href="/magazine" class="" >RIS Archives</a>
+    </li>
+      <li>
+      <a href="https://risnews.com/get-engaged-ris" class="" >Get Engaged With RIS</a>
+    </li>
+      <li>
+      <a href="https://risnews.com/cgt-ris-executive-council" class="" target="_blank">Executive Council Content</a>
+    </li>
+      <li>
+      <a href="/contact-us" class="" >Contact Us</a>
+    </li>
+    <li><a href="/#subscribe">Subscribe</a></li>
+</ul>
+
+<div class="search-field">
+  <form action=/search method="get">
+    <img src="/themes/ashday_foundation/images/magnifying-glass.png" />
+    <input type="text" name="text" value="" placeholder="Search">
+    <input type="hidden" name="time" value="1 year" />
+    <input type="hidden" name="sort" value="relevance" />
+  </form>
+</div>
+              </aside>
+
+      
+      
+      
+
+  
+
+
+<div class="header header-full">
+  <div class="prebar"></div>
+  <div class="main-wrapper">
+    <div class="subscribe-promo" style="">
+      <a href="/#subscribe" style="              font-size: 18px; font-weight: 300;">
+        <div class="subscribe-icon" ></div>
+        Subscribe
+      </a>
+    </div>
+          <a class="site-logo" href="/"></a>
+            <div class="search-wrapper search-closed">
+    <div class="search-tool">
+      <form action=/search method="get">
+        <div class="input-wrapper">
+          <input type="text" name="text" value="" placeholder="Search">
+          <div class="search-help">Press enter to search</div>
+        </div>
+        <input type="hidden" name="time" value="1 year" />
+        <input type="hidden" name="sort" value="relevance" />
+      </form>
+      <img class="toggle-search-icon close" src="/themes/ashday_foundation/images/search-close.png" alt="Close search" />
+    </div>
+    <div class="toggle-search-icon open"></div>
+  </div>
+
+  </div>
+  <div class="primary-nav-wrapper">
+    <ul>
+              <li style="width: calc(14.285714285714% - 8.5714285714286px);">
+          <a href="/store-systems"><span>Store Systems</span></a>
+        </li>
+              <li style="width: calc(14.285714285714% - 8.5714285714286px);">
+          <a href="/analytics"><span>Analytics</span></a>
+        </li>
+              <li style="width: calc(14.285714285714% - 8.5714285714286px);">
+          <a href="/digital-commerce"><span>Digital Commerce</span></a>
+        </li>
+              <li style="width: calc(14.285714285714% - 8.5714285714286px);">
+          <a href="/supply-chain-merchandising"><span>Supply Chain / Merchandising</span></a>
+        </li>
+              <li style="width: calc(14.285714285714% - 8.5714285714286px);">
+          <a href="/customer-engagement"><span>Customer Engagement</span></a>
+        </li>
+              <li style="width: calc(14.285714285714% - 8.5714285714286px);">
+          <a href="/latest-news"><span>Latest Retail News</span></a>
+        </li>
+              <li style="width: calc(14.285714285714% - 8.5714285714286px);">
+          <a href="https://risnews.com/research-reports"><span>Research and Reports</span></a>
+        </li>
+                    <li style="width: 60px;" class="flyout-toggle-area">
+          <a class="flyout-toggle"></a>
+        </li>
+          </ul>
+  </div>
+</div>
+<div class="header-full-flyout">
+  <div class="flyout-contents">
+    <div class="flyout-prebar" style="width: calc(100% - 60px);"></div>
+    <ul>
+              <li>
+          <a href="https://risnews.com/events-0">Events</a>
+        </li>
+              <li>
+          <a href="/webinars">Webinars</a>
+        </li>
+              <li>
+          <a href="https://risnews.com/trendagrams">Infographics</a>
+        </li>
+              <li>
+          <a href="/ris-talks">Case Studies / Q&amp;As</a>
+        </li>
+              <li>
+          <a href="/video">Video</a>
+        </li>
+              <li>
+          <a href="/magazine">RIS Archives</a>
+        </li>
+              <li>
+          <a href="https://risnews.com/get-engaged-ris">Get Engaged With RIS</a>
+        </li>
+              <li>
+          <a href="https://risnews.com/cgt-ris-executive-council" target="_blank">Executive Council Content</a>
+        </li>
+              <li>
+          <a href="/contact-us">Contact Us</a>
+        </li>
+          </ul>
+  </div>
+</div>
+<div class="header-full-spacer"></div>
+
+<div class="header header-compact">
+  <div class="prebar"></div>
+  <div class="main-wrapper">
+    <div class="hamburger-wrapper">
+      <div class="left-off-canvas-toggle"></div>
+
+              <a href="/" class="mini-logo"></a>
+          </div>
+    <div class="page-title">
+              <h1>Online Shopping Cart Abandonment: The Next Challenge for Retailers </h1>
+          </div>
+        <div class="search-wrapper search-closed">
+    <div class="search-tool">
+      <form action=/search method="get">
+        <div class="input-wrapper">
+          <input type="text" name="text" value="" placeholder="Search">
+          <div class="search-help">Press enter to search</div>
+        </div>
+        <input type="hidden" name="time" value="1 year" />
+        <input type="hidden" name="sort" value="relevance" />
+      </form>
+      <img class="toggle-search-icon close" src="/themes/ashday_foundation/images/search-close.png" alt="Close search" />
+    </div>
+    <div class="toggle-search-icon open"></div>
+  </div>
+
+  </div>
+</div>
+<div class="header-compact-waypoint-trigger"></div>
+
+<div class="header header-mobile">
+  <div class="prebar"></div>
+  <div class="hamburger-wrapper left-off-canvas-toggle">
+    <img src="/themes/ashday_foundation/images/hamburger-menu.png" alt="Open Menu" />
+  </div>
+  <div class="main-wrapper">
+          <a href="/" class="mini-logo"></a>
+        <div class="shadow"></div>
+    <div class="shadow-spacer"></div>
+  </div>
+</div>
+
+      <div class="header-wrapper">
+        <div class="large-12">
+          
+        </div>
+      </div>
+
+    
+    
+    
+    
+      <div class="region-highlighted">
+    <section id="block-contenthero" class="block-contenthero">
+  
+  
+    
+
+  
+          
+    
+    
+  </section>
+<div data-drupal-messages-fallback class="hidden"></div>
+
+  </div>
+
+
+    <div>
+      <div id="main" class="row has-one-sidebar">
+        
+                  <div class="columns main-col">
+        
+          <a id="main-content"></a>
+                                          <div>
+    <section id="block-dfptagcontentleader" class="block-dfptagcontentleader">
+  
+  
+    
+
+  
+          <div id="js-dfp-tag-content_leader">
+        <script type="text/javascript">
+        googletag.cmd.push(function() {
+            googletag.display('js-dfp-tag-content_leader');
+        });
+    </script>
+</div>
+
+    
+    
+  </section>
+<section id="block-customadcontentleader1" class="block-customadcontentleader1">
+  
+  
+    
+
+  
+          
+    
+    
+  </section>
+<section id="block-ashday-foundation-content" class="main-page-content block-ashday-foundation-content">
+  
+  
+    
+
+  
+          
+<article id="node-10735"  data-history-node-id="10735" role="article" about="/online-shopping-cart-abandonment-next-challenge-retailers" typeof="schema:Article">
+
+        
+          <span property="schema:name" content="Online Shopping Cart Abandonment: The Next Challenge for Retailers " class="hidden"></span>
+  <span property="schema:interactionCount" content="UserComments:0" class="hidden"></span>
+
+
+    <div class="title-wrapper ">
+                    <h1 class="title ">
+          Online Shopping Cart Abandonment: The Next Challenge for Retailers 
+        </h1>
+                </div>
+  
+
+      <div class="author-and-date">
+      
+            <div>
+        By Ben Harris - 04/05/2018
+          <span property="schema:dateCreated" content="2018-04-05T14:59:06+00:00" class="hidden"></span>
+
+      </div>
+    </div>
+
+          <div class="subscribe">
+        <div class="content">
+          <div class="desc">Get great content like this right in your inbox.</div>
+          <a href="/#subscribe" class="button btn-large btn-primary">Subscribe</a>
+        </div>
+      </div>
+      
+
+  <div class="view-mode-full">
+          <div class="field-wrapper field field-node--field-content field-name-field-content field-type-entity-reference-revisions field-label-hidden">
+    <div class="field-items">
+          <div class="field-item"><div class="paragraph--type--image-text">
+
+  <div class="content-image content-image-right content-image-medium ">
+          <div class="image field field-paragraph--field-image field-name-field-image field-type-image field-label-hidden">
+    <div class="field-items">
+          <div class="field-item">  <img src="https://assets1.risnews.com/styles/content_sm/s3/2018-04/shopping-cart.png?itok=LUk_XbaE" width="560" height="530" alt="" typeof="foaf:Image" />
+
+
+</div>
+      </div>
+</div>
+
+          </div>
+
+  <div class="content-body"><div class="field-wrapper field field-paragraph--field-text-area field-name-field-text-area field-type-text-with-summary field-label-hidden">
+    <div class="field-items">
+          <div class="field-item"><p class="MsoNoSpacing"><span><span>No digital retailers are immune to shopping cart abandonment. It’s so prevalent that in 2016, e-commerce businesses lost $4.6 trillion worth of sales to users leaving sites with loaded carts. </span></span></p>
+
+<p class="MsoNoSpacing"><span><span>Why are retailers experiencing this? Customer expectations are at an all-time high. Businesses are no longer competing on price, product, promotion and placement alone – experience is now the biggest differentiator. If retailers do not provide a flawless experience from the second customers land on the site through to checkout, they will buy elsewhere. In fact, 86% of web users stop doing business with a company after a poor experience online.</span></span></p>
+
+<p class="MsoNoSpacing"><span><span>Cart abandonment rates vary by retailer based on how well the checkout flow is designed and optimized. Some, like Amazon with one-click shopping, make it incredibly easy to buy, whereas others, either knowingly or unknowingly, make it exceptionally hard for customers to convert.</span></span></p>
+
+<p class="MsoNoSpacing"><span><span>Ultimately, no matter what a retailer sells, better digital experiences reduce cart abandonment. When retailers fully understand their customers’ digital body language and state of mind, they can optimize for experiences rather than conversions, making it easier and more appealing to complete purchases and repeat business.</span></span></p>
+
+<h2><span><span><strong>Red flags of poor customer experience</strong></span></span></h2>
+
+<p class="MsoNoSpacing"><span><span>To deliver the best possible experience and reduce cart abandonment, retailers should measure behavioral patterns that indicate a frustrating experience, such as: multiclick (meaning a link might be broken), bird’s nest (the user is unsure of where to go next) and device rotation (the site might not be optimized for mobile use). It’s estimated that improving checkout flow and web design alone could lead to a 35% conversion rate increase. </span></span></p>
+
+<p class="MsoNoSpacing"><span><span>The adoption rate of “on-the-go” shopping is making cart abandonment more prevalent. By not having mobile-optimized websites and apps - a major cause of poor experiences - merchants are missing out on the potential for online revenue. Mobile phones represent 46% of global ecommerce traffic but only 27% of purchases, according to Criteo, indicating that conversion rates are still low on mobile. </span></span></p>
+
+<h2><span><span><strong>Retailers have the power to fix it</strong></span></span></h2>
+
+<p class="MsoNoSpacing"><span><span>Sometimes shopping cart abandonment can be attributed to a natural consequence of how people shop online, like window shopping, price comparison, or saving items for later, which are largely unavoidable for retailers.</span></span></p>
+
+<p class="MsoNoSpacing"><span><span>However, there are digital experience issues that can be easily understood and fixed, and online retailers can’t afford to ignore them, including: a complicated and lengthy checkout process, website errors, unexpected shipping costs, requiring shoppers to create an account, lengthy delivery times or customers not trusting the merchant with credit card information.</span></span></p>
+
+<p class="MsoNoSpacing"><span><span>Often cart abandonment does tie back to poor digital experiences. Retailers must go beyond short-term conversion wins and instead put strategies in place to optimize websites to deliver engaging experiences and foster strong relationships and returning customers.</span></span></p>
+
+<p class="MsoNoSpacing"><span><span>The rise of digital might be enabling retailers to sell more products, but don’t let a bad customer experience stop progress. Retailers must perfect the digital journey from beginning to end to ensure the shopping cart abandonment epidemic is treated.</span></span></p>
+
+<p class="MsoNoSpacing"><em><span><span>-Ben Harris, <a href="https://www.decibelinsight.com/">Decibel Insight</a> CEO and co-founder</span></span></em></p></div>
+      </div>
+</div>
+</div>
+
+</div></div>
+      </div>
+</div>
+
+      </div>
+</article>
+
+    
+    
+  </section>
+<section id="block-relatedtopicsbeneathcontent" class="block-relatedtopicsbeneathcontent">
+  
+  
+    
+
+  
+            <div class="block-eiq-17 block topics style-large">
+    <div class="content">
+      <h2 class="title">Related Topics</h2>
+      <ul class="tags">
+                  <li><a href="/digital-commerce">Digital Commerce</a></li>
+                  <li><a href="/e-commerce">E-Commerce</a></li>
+                  <li><a href="/e-commerce-platform">E-Commerce Platform</a></li>
+                  <li><a href="/customer-experience">Customer Experience</a></li>
+              </ul>
+    </div>
+  </div>
+
+
+    
+    
+  </section>
+<section id="block-dfptagcontentleader2" class="block-dfptagcontentleader2">
+  
+  
+    
+
+  
+          <div id="js-dfp-tag-content_leader_2">
+        <script type="text/javascript">
+        googletag.cmd.push(function() {
+            googletag.display('js-dfp-tag-content_leader_2');
+        });
+    </script>
+</div>
+
+    
+    
+  </section>
+<section id="block-customadcontentleader2" class="block-customadcontentleader2">
+  
+  
+    
+
+  
+          
+    
+    
+  </section>
+<section id="block-youmayalsolikebeneathcontent" class="block-youmayalsolikebeneathcontent">
+  
+  
+    
+
+  
+          <div class="block-eiq-16 block">
+      <div class="content">
+    <h2 class="title">You May Also Like</h2>
+
+    <div class="items-grid">
+          <div class="item">
+                  <div class="item-left">
+            <a href="/correct-change-foreign-exchange-secret-weapon-solve-cart-abandonment">
+              <img src="https://assets1.risnews.com/styles/secondary_ari/s3/FX_teaser_0.png?itok=p9KfQr8x" alt="">
+            </a>
+          </div>
+                <div class="item-right">
+                    <div class="title-wrap">
+            <div class="category">
+              <a href="/apparel">Apparel</a>            </div>
+            <div class="title">
+              <a href="/correct-change-foreign-exchange-secret-weapon-solve-cart-abandonment">
+               The Correct Change: Foreign Exchange Is the Secret Weapon to Solve Cart Abandonment
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+          <div class="item">
+                  <div class="item-left">
+            <a href="/what-api-integrations-are-e-commerce-professionals-missing-0">
+              <img src="https://assets1.risnews.com/styles/secondary_ari/s3/2019-12/GettyImages-491380930_3_0.jpg?itok=e4L0YE8y" alt="">
+            </a>
+          </div>
+                <div class="item-right">
+                    <div class="title-wrap">
+            <div class="category">
+              <a href="/digital-commerce">Digital Commerce</a>            </div>
+            <div class="title">
+              <a href="/what-api-integrations-are-e-commerce-professionals-missing-0">
+               What API Integrations Are E-Commerce Professionals Missing?
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+        </div>
+  </div>
+    </div>
+
+    
+    
+  </section>
+
+  </div>
+
+
+                  </div>
+        
+                          <div id="sidebar-second" class="columns sidebar">
+              <div>
+    <section id="block-contentsharelinks" class="block-contentsharelinks">
+  
+  
+    
+
+  
+          <div class="block-eiq-13 block">
+  <div class="content">
+    <div class="share-title"><h2 class="title">Share</h2></div>
+    <div class="social-icons">
+      <a href="https://www.facebook.com/sharer/sharer.php?u=https://risnews.com/online-shopping-cart-abandonment-next-challenge-retailers" target="_blank">
+        <img src="/themes/ashday_foundation/images/blocks/Facebook.png" alt="Share via Facebook">
+      </a>
+      <a href="https://twitter.com/intent/tweet?url=https://risnews.com/online-shopping-cart-abandonment-next-challenge-retailers" target="_blank">
+        <img src="/themes/ashday_foundation/images/blocks/Twitter.png" alt="Share via Twitter">
+      </a>
+      <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://risnews.com/online-shopping-cart-abandonment-next-challenge-retailers&title=Online Shopping Cart Abandonment: The Next Challenge for Retailers " target="_blank">
+        <img src="/themes/ashday_foundation/images/blocks/Linkedin.png" alt="Share via LinkedIn">
+      </a>
+      <a href="/cdn-cgi/l/email-protection#4c733f392e26292f38710322202522296c1f24233c3c25222b6c0f2d3e386c0d2e2d2228232221292238766c1824296c022934386c0f242d202029222b296c2a233e6c1e29382d2520293e3f6c6a2e2328357105697e7c3b2d22382928697e7c3823697e7c3f242d3e29697e7c3824253f697e7c3c2d2b29697e7c3b253824697e7c35233962697e7c697e7c2438383c3f7663633e253f22293b3f622f232163232220252229613f24233c3c25222b612f2d3e38612d2e2d22282322212922386122293438612f242d202029222b29613e29382d2520293e3f" target="_blank">
+        <img src="/themes/ashday_foundation/images/blocks/Email.png" alt="Share via Email">
+      </a>
+    </div>
+  </div>
+</div>
+
+    
+    
+  </section>
+<section id="block-dfptagcontentsidebar" class="block-dfptagcontentsidebar">
+  
+  
+    
+
+  
+          <div id="js-dfp-tag-content_sidebar">
+        <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="text/javascript">
+        googletag.cmd.push(function() {
+            googletag.display('js-dfp-tag-content_sidebar');
+        });
+    </script>
+</div>
+
+    
+    
+  </section>
+<section id="block-customadcontentsidebar" class="block-customadcontentsidebar">
+  
+  
+    
+
+  
+          
+    
+    
+  </section>
+<section id="block-contentpageyoumayalsolike" class="block-contentpageyoumayalsolike">
+  
+  
+    
+
+  
+          <div class="block-eiq-16 block">
+      <div class="content">
+    <h2 class="title">You May Also Like</h2>
+
+    <div class="items-grid">
+          <div class="item">
+                  <div class="item-left">
+            <a href="/5-best-retailers-work-2020">
+              <img src="https://assets1.risnews.com/styles/secondary_ari/s3/2020-02/GettyImages-475075952_0.jpg?itok=QB26JzAs" alt="">
+            </a>
+          </div>
+                <div class="item-right">
+                    <div class="title-wrap">
+            <div class="category">
+              <a href="/store-systems">Store Systems</a>            </div>
+            <div class="title">
+              <a href="/5-best-retailers-work-2020">
+               5 Best Retailers to Work for in 2020
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+          <div class="item">
+                  <div class="item-left">
+            <a href="/what-future-drones-retail">
+              <img src="https://assets1.risnews.com/styles/secondary_ari/s3/2020-10/drones%20GettyImages-1021718756_0.jpg?itok=jRz8H6PS" alt="">
+            </a>
+          </div>
+                <div class="item-right">
+                    <div class="title-wrap">
+            <div class="category">
+              <a href="/supply-chain-merchandising">Supply Chain and Merchandising</a>            </div>
+            <div class="title">
+              <a href="/what-future-drones-retail">
+               What is the Future of Drones at Retail? 
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+          <div class="item">
+                  <div class="item-left">
+            <a href="/privacy-trust-and-retailers-cookie-conundrum">
+              <img src="https://assets1.risnews.com/styles/secondary_ari/s3/2020-09/GettyImages-1201896353_0.jpg?itok=jWekoJa7" alt="">
+            </a>
+          </div>
+                <div class="item-right">
+                    <div class="title-wrap">
+            <div class="category">
+              <a href="/store-systems">Store Systems</a>            </div>
+            <div class="title">
+              <a href="/privacy-trust-and-retailers-cookie-conundrum">
+               Privacy, Trust and Retailers’ Cookie Conundrum
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+        </div>
+  </div>
+    </div>
+
+    
+    
+  </section>
+<section id="block-contentpagerelatedtopics" class="block-contentpagerelatedtopics">
+  
+  
+    
+
+  
+            <div class="block-eiq-17 block topics style-compact">
+    <div class="content">
+      <h2 class="title">Related Topics</h2>
+      <ul class="tags">
+                  <li><a href="/digital-commerce">Digital Commerce</a></li>
+                  <li><a href="/e-commerce">E-Commerce</a></li>
+                  <li><a href="/e-commerce-platform">E-Commerce Platform</a></li>
+                  <li><a href="/customer-experience">Customer Experience</a></li>
+              </ul>
+    </div>
+  </div>
+
+
+    
+    
+  </section>
+
+  </div>
+
+          </div>
+              </div>
+    </div>
+                    <div>
+    <section id="block-footersubscribe" class="block-footersubscribe">
+  
+  
+    
+
+  
+          <div class="block-eiq-11 block" style="background-image: url(https://assets1.risnews.com/2018-07/Stay_20in_20the_20loop_0.jpg)">
+  <a name=subscribe></a>
+    <div class="subscribe-group row ">
+    <div class="subscribe-email">
+      <h3>Get the Newsletter</h3>            <a href="https://eiq.dragonforms.com/RIS_PREFNEW?pk=WEBSITE" target="_blank" class="button btn-primary">Subscribe</a>
+    </div>
+    <div class="subscribe-print">
+      <h3>Get Engaged with RIS</h3>            <a href="/get-engaged-ris" target="_blank" class="button btn-primary">Connect with RIS</a>
+    </div>
+  </div>
+</div>
+
+    
+    
+  </section>
+<section id="block-dfptaginterstitial1" class="interstitial-ad block-dfptaginterstitial1">
+  
+  
+    
+
+  
+          <div id="js-dfp-tag-interstitial_1">
+        <script type="text/javascript">
+        googletag.cmd.push(function() {
+            googletag.display('js-dfp-tag-interstitial_1');
+        });
+    </script>
+</div>
+
+    
+    
+  </section>
+<section id="block-footersection" class="block-footersection">
+  
+  
+    
+
+  
+          <section id="block-footersociallinks" class="block-footersociallinks">
+  
+  
+    
+
+  
+                                      <div class="block-eiq-37 block social-links">
+  <ul>
+          <li>
+        <a href="https://www.facebook.com/RIS-News-124108778281/" class="social-facebook" target="_blank" title="facebook">Facebook</a>
+      </li>
+              <li>
+        <a href="https://twitter.com/risnewsinsights" class="social-twitter" target="_blank" title="twitter">Twitter</a>
+      </li>
+              <li>
+        <a href="https://www.linkedin.com/showcase/retail-info-systems-news/" class="social-linkedin" target="_blank" title="linkedin">LinkedIn</a>
+      </li>
+              <li>
+        <a href="https://www.youtube.com/channel/UCoClpeTehyWMp_bfR1j14Wg" class="social-youtube" target="_blank" title="youtube">YouTube</a>
+      </li>
+              </ul>
+</div>
+
+    
+    
+  </section>
+<section id="block-risfooterlogo" class="ris-logo site-logo block-risfooterlogo">
+  
+  
+    
+
+  
+          <div class="field-wrapper field field-block-content--field-logo field-name-field-logo field-type-image field-label-hidden">
+    <div class="field-items">
+          <div class="field-item">  <img src="/sites/default/files/2019-09/RIS_WebsiteLogo.png" width="308" height="49" alt="RIS Logo" typeof="foaf:Image" />
+
+</div>
+      </div>
+</div>
+
+    
+    
+  </section>
+<nav role="navigation" aria-labelledby="block-footer-menu" id="block-footer" class="block-footer">
+            
+  <h2 class="block-title visually-hidden" id="block-footer-menu">Footer</h2>
+  
+
+        
+              <ul>
+              <li>
+        <a href="/contact-us" target="_blank" data-drupal-link-system-path="contact-us">Contact Us</a>
+              </li>
+          <li>
+        <a href="https://risnews.com/file/RN15ef4cba8a47b0608727073/2020 Edit Calendar">Editorial Calendar</a>
+              </li>
+          <li>
+        <a href="https://risnews.com/cgt-ris-executive-council-members">Executive Council</a>
+              </li>
+          <li>
+        <a href="https://risnews.com/file/RN15fa2cd574d8d0314815507/leagueofleaders">League of Leaders</a>
+              </li>
+          <li>
+        <a href="https://fs6.formsite.com/stagnito/form104/index.html" target="">Media Kit</a>
+              </li>
+          <li>
+        <a href="http://www.ensembleiq.com/privacy" target="_blank">Privacy Statement</a>
+              </li>
+          <li>
+        <a href="http://www.ensembleiq.com/terms" target="_blank">Terms &amp; Conditions</a>
+              </li>
+        </ul>
+  
+
+
+  </nav>
+<section id="block-bingremarketingcode" class="block-bingremarketingcode">
+  
+  
+    
+
+  
+          <div class="body field field-block-content--body field-name-body field-type-text-with-summary field-label-hidden">
+    <div class="field-items">
+          <div class="field-item"><script>
+<!--//--><![CDATA[// ><!--
+(function(w,d,t,r,u){var f,n,i;w[u]=w[u]||[],f=function(){var o={ti:"5680324"};o.q=w[u],w[u]=new UET(o),w[u].push("pageLoad")},n=d.createElement(t),n.src=r,n.async=1,n.onload=n.onreadystatechange=function(){var s=this.readyState;s&&s!=="loaded"&&s!=="complete"||(f(),n.onload=n.onreadystatechange=null)},i=d.getElementsByTagName(t)[0],i.parentNode.insertBefore(n,i)})(window,document,"script","//bat.bing.com/bat.js","uetq");
+//--><!]]>
+</script><noscript><img src="//bat.bing.com/action/0?ti=5680324&amp;Ver=2" height="0" width="0" style="display:none; visibility: hidden;" /></noscript></div>
+      </div>
+</div>
+
+    
+    
+  </section>
+
+    
+    
+  </section>
+
+  </div>
+
+        <section id="footer-bottom">
+          <div class="ensemble-footer-logo text-center"><div class="ensemble-logo-image"><a href="http://www.ensembleiq.com/home"></a></div></div>
+          <div class="copyright-section text-center">© 2020 EnsembleIQ, All Rights Reserved</div>
+        </section>
+      
+              <a class="exit-off-canvas"></a>
+
+  </div>
+</section>
+
+  </div>
+
+    
+    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","scriptPath":null,"pathPrefix":"","currentPath":"node\/10735","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"eiq":{"display_settings":{"bundle":"display_settings","entity_type":"config_pages","id":1,"advertisement_label":"Advertisement","author_profile_articles_he":"ARTICLES BY THIS AUTHOR","author_profile_blog_header":"BLOG POSTS BY THIS AUTHOR","author_profile_page_title":"Author Profile","author_profile_page_url":{"url":"\/author-profile","title":null,"type":"internal"},"blogs_page_title":"Blogs","blogs_page_url":{"url":"\/blogs","title":null,"type":"internal"},"bulletins_page_title":"Latest Bulletins","bulletins_page_url":{"url":"\/bulletins","title":null,"type":"internal"},"buyers_guide_no_results_he":"No Results Found.","buyers_guide_no_results_te":"Could not find any results.","buyers_guide_page_title":"Buyer\u0027s Guide","buyers_guide_page_url":{"url":"\/buyers-guide","title":null,"type":"internal"},"buyers_guide_search_button":"Go","buyer_s_guide_label":"Buyer\u0027s Guide","byline_prefix":"By","category_label":"Category","city_label":"City","contact_page_url":{"url":"\/contact-us","title":null,"type":"internal"},"contact_us_label":"Contact Us","cookie_consent_button_text":"OK","cookie_consent_content":"We use cookies to make your experience of our website better. To find out more about cookies, \u003Ca class=\u0027cc-link\u0027 href=\u0027https:\/\/ensembleiq.com\/cookies\u0027\u003Eclick here\u003C\/a\u003E. By accepting this notice and continuing to browse our website you confirm you accept our \u003Ca class=\u0027cc-link\u0027 href=\u0027https:\/\/ensembleiq.com\/privacy-policy\u0027\u003EPrivacy Policy\u003C\/a\u003E","copyright_text":"\u00a9 [year] EnsembleIQ, All Rights Reserved","download_label":"Download","download_now_label":"Download Now","favicon":{"url":"https:\/\/assets1.risnews.com\/styles\/large\/s3\/2020-03\/favicon%20%284%29.png?itok=5Wl5cw8a","alt":""},"gating_form_button_label":"OK","gating_form_ca_residency_n":"No","gating_form_ca_residency_y":"Yes","gating_form_ca_resident_te":"Do you reside in California?","gating_form_do_not_share_i":"Do not share my info with advertisers.","gating_form_email_placehol":"My Email Address","gating_form_intro_header":"HI THERE!","gating_form_intro_text":"This is private content, just for [site_abbr] insiders! It\u0027s easy to join though. What\u0027s your email?","gating_form_missing_value_":"Please select at least one option for the following: ","gating_form_pp_addtl_text":"By checking this box, you are agreeing to our \u003Ca href=\u0022http:\/\/www.ensembleiq.com\/privacy\u0022 target=\u0022_blank\u0022\u003Eprivacy policy\u003C\/a\u003E.","gating_form_pp_ans_text":"I agree","gating_form_prep_cont_hdr":"Just a moment...","gating_form_prep_cont_txt":"We\u0027re preparing your content.","gating_form_privacy_policy":"Privacy Policy","gating_form_question_intro":"We have a few questions...","gating_form_resident_quest":"Are you a resident of the US?","gating_form_res_no_txt":"No","gating_form_res_yes_txt":"Yes","gating_submit_button_label":"OK","leadership_staff_label":"Leadership Staff","month_labels":{"january":{"abbr":"Jan","full":"January\r"},"february":{"abbr":"Feb","full":"February\r"},"march":{"abbr":"Mar","full":"March\r"},"april":{"abbr":"Apr","full":"April\r"},"may":{"abbr":"May","full":"May\r"},"june":{"abbr":"June","full":"June\r"},"july":{"abbr":"July","full":"July\r"},"august":{"abbr":"Aug","full":"August\r"},"september":{"abbr":"Sep","full":"September\r"},"october":{"abbr":"Oct","full":"October\r"},"november":{"abbr":"Nov","full":"November\r"},"december":{"abbr":"Dec","full":"December"}},"node_subscription_link":{"url":"\/#subscribe","title":"Subscribe","type":"internal"},"node_subscription_text":"Get great content like this right in your inbox.","no_results_label":"No Results","no_results_text":"You may need to try searching for older results or use other search terms.","phone_label":"Phone","please_fill_out_this_field":"Please fill out this field","primary_logo_height":60,"products_page_title":"Products","products_page_url":{"url":"\/products","title":null,"type":"internal"},"search_label":"Search","search_page_url":{"url":"\/search","title":null,"type":"internal"},"search_period_all_time_lab":"All time","search_period_filter_label":"Results from","search_period_past_2_years":"Past 2 Years","search_period_past_3_month":"Past 3 months","search_period_past_year_la":"Past Year","search_placeholder_label":"Press enter to search","search_sort_label":"Sort by","search_sort_relevance_labe":"Relevance","secondary_header_logo_heig":30,"select_box_label":"- Select -","send_a_message_label":"Send a Message","show_more_label":"Show More","sponsored_by_label":"Sponsored By","sponsored_content_label":"Sponsored Content","sponsored_label":"Sponsored","street_address_label":"Street address","street_address_line_2_labe":"Street address line 2","subscribe_anchor_namee":"subscribe","subscribe_label":"Subscribe","subscribe_now_label":"Subscribe Now","week_":{"sunday":{"abbr":"Sun","full":"Sunday\r"},"monday":{"abbr":"Mon","full":"Monday\r"},"tuesday":{"abbr":"Tues","full":"Tuesday\r"},"wednesday":{"abbr":"Wed","full":"Wednesday\r"},"thursday":{"abbr":"Thurs","full":"Thursday\r"},"friday":{"abbr":"Fri","full":"Friday\r"},"saturday":{"abbr":"Sat","full":"Saturday"}},"white_paper_label":"White Paper","zip_code_label":"Zip code","search_sort_date_label":"Date"},"nid":"10735","type":"Article","auto_inject_body_ads":false,"legion_url":"https:\/\/live-eiq-portal.pantheonsite.io"},"user":{"uid":0,"permissionsHash":"e9cbad1f9344e885f4240ef237bdc8ea12ac633b513cc9a3f6208fc51d12a265"}}</script>
+<script src="/sites/default/files/js/js_uufQMHwaecMO2QlKUxafX0__0W7cd-6qogOIuWahSq0.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script src="/sites/default/files/js/js_Wq7VijJLRJ3YNGqTbvLBdNuVs9kUu70_uuOOl9jUQS0.js"></script>
+<script src="/modules/custom/eiq/js/image_carousel.js?v=1.15"></script>
+<script src="/modules/custom/eiq/js/image_gallery.js?v=1"></script>
+<script src="/modules/custom/eiq/js/text_boxes.js?v=1"></script>
+<script src="/modules/custom/eiq/js/view_recorder.js?qk6qd5"></script>
+<script src="/modules/custom/eiq/js/ad_injection.js?v=1.3"></script>
+<script src="/modules/custom/eiq/js/cookies.js?v=1"></script>
+<script src="/modules/custom/ash_util/js/spin.min.js?v=8.9.1"></script>
+<script src="/modules/custom/ash_util/js/spinner.js?v=8.9.1"></script>
+<script src="/modules/custom/ash_util/js/processing_indicator.js?v=8.9.1"></script>
+<script src="/modules/custom/eiq/js/show_more.js?qk6qd5"></script>
+<script src="/modules/custom/eiq/js/site_admin_menu.js?v=1.1"></script>
+<script src="/modules/custom/eiq/js/dfp.js?v=1"></script>
+<script src="https://app.credspark.com/embed-v2.js"></script>
+
+    <script>
+      (function ($) {
+        $(document).foundation();
+      })(jQuery);
+    </script>
+    <div id="mega-modal" class="reveal-modal" data-reveal aria-hidden="true" role="dialog"><a class="overlay-close"></a></div>
+                  <link rel="stylesheet" href="https://olytics.omeda.com/olytics/css/v3/p/olytics.css" />
+        <script type="text/javascript">
+        // olytics 3.0
+          window.olytics||(window.olytics=[]),window.olytics.methods=["fire","confirm"],window.olytics.factory=function(i){return function(){var t=Array.prototype.slice.call(arguments);return t.unshift(i),window.olytics.push(t),window.olytics}};for(var i=0;i<window.olytics.methods.length;i++){var method=window.olytics.methods[i];window.olytics[method]=window.olytics.factory(method)}olytics.load=function(i){if(!document.getElementById("olyticsImport")){window.a=window.olytics;var t=document.createElement("script");t.async=!0,t.id="olyticsImport",t.type="text/javascript";var o="";void 0!==i&&void 0!==i.oid&&(o=i.oid),t.setAttribute("data-oid",o),t.src="https://olytics.omeda.com/olytics/js/v3/p/olytics.min.js",t.addEventListener("load",function(t){for(olytics.initialize({Olytics:i});window.a.length>0;){var o=window.a.shift(),s=o.shift();olytics[s]&&olytics[s].apply(olytics,o)}},!1);var s=document.getElementsByTagName("script")[0];s.parentNode.insertBefore(t,s)}},olytics.load({oid:"0d5d0a3d390140afbf57aa0af5cebdf4"});
+          var category = '';
+                        category = 'Digital\u0020Commerce,\u0020E\u002DCommerce,\u0020E\u002DCommerce\u0020Platform,\u0020Customer\u0020Experience';
+                  var content_type = '';
+                    content_type = 'article';
+                  olytics.fire(
+              {
+                behaviorId: '9908A2455689A1I',
+                category: category,
+                tag: content_type
+              }
+          );
+        </script>
+      
+              <script type="text/javascript">
+          /* <![CDATA[ */
+          var google_conversion_id = 875534978;
+          var google_custom_params = window.google_tag_params;
+          var google_remarketing_only = true;
+          /* ]]> */
+        </script>
+        <script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+        </script>
+        <noscript>
+          <div style="display:inline;">
+            <img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/875534978/?guid=ON&amp;script=0"/>
+          </div>
+        </noscript>
+      
+              <script> window._peq = window._peq || []; window._peq.push(["init"]); </script>
+        <script src="https://clientcdn.pushengage.com/core/ca15932f66bdc95c1034464f70f202e1.js" async></script>
+      
+              <!-- Start of Async Drift Code -->
+        <script>
+          "use strict";
+
+          !function() {
+            var t = window.driftt = window.drift = window.driftt || [];
+            if (!t.init) {
+              if (t.invoked) return void (window.console && console.error && console.error("Drift snippet included twice."));
+              t.invoked = !0, t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ],
+                t.factory = function(e) {
+                  return function() {
+                    var n = Array.prototype.slice.call(arguments);
+                    return n.unshift(e), t.push(n), t;
+                  };
+                }, t.methods.forEach(function(e) {
+                t[e] = t.factory(e);
+              }), t.load = function(t) {
+                var e = 3e5, n = Math.ceil(new Date() / e) * e, o = document.createElement("script");
+                o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + n + "/" + t + ".js";
+                var i = document.getElementsByTagName("script")[0];
+                i.parentNode.insertBefore(o, i);
+              };
+            }
+          }();
+          drift.SNIPPET_VERSION = '0.3.1';
+          drift.load('pxei689ree8h');
+        </script>
+        <!-- End of Async Drift Code -->
+      
+              <!-- Facebook Pixel Code -->
+        <script>
+          !function(f,b,e,v,n,t,s)
+          {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+              n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+            if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+            n.queue=[];t=b.createElement(e);t.async=!0;
+            t.src=v;s=b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t,s)}(window,document,'script',
+              'https://connect.facebook.net/en_US/fbevents.js');
+          fbq('init', '269667006907069');
+          fbq('track', 'PageView');
+        </script>
+        <noscript>
+          <img height="1" width="1"
+               src="https://www.facebook.com/tr?id=269667006907069&ev=PageView&noscript=1"/>
+        </noscript>
+        <!-- End Facebook Pixel Code -->
+                    <script type="text/javascript"> _linkedin_data_partner_id = "316777"; </script>
+        <script type="text/javascript"> (function () {
+            var s = document.getElementsByTagName("script")[0];
+            var b = document.createElement("script");
+            b.type = "text/javascript";
+            b.async = true;
+            b.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js";
+            s.parentNode.insertBefore(b, s);
+          })(); </script>
+        <noscript><img height="1" width="1" style="display:none;" alt=""
+                       src="https://dc.ads.linkedin.com/collect/?pid=316777&fmt=gif"/></noscript>
+      
+              <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
+        <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+        <script>
+          window.addEventListener("load", function(){
+            window.cookieconsent.initialise({
+              "palette": {
+                "popup": {
+                  "background": "#237afc"
+                },
+                "button": {
+                  "background": "#fff",
+                  "text": "#237afc"
+                }
+              },
+              "showLink": false,
+              "type": "info",
+              "content": {
+                "message": "We use cookies to make your experience of our website better. To find out more about cookies, <a class='cc-link' href='https://ensembleiq.com/cookies'>click here</a>. By accepting this notice and continuing to browse our website you confirm you accept our <a class='cc-link' href='https://ensembleiq.com/privacy-policy'>Privacy Policy</a>",
+                "dismiss": "OK",
+              },
+            })
+          });
+        </script>
+            <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"75542ad5ca","applicationID":"56496662","transactionName":"ZFVVMhcFDBFYBUVYXF0fdgURDQ0MFiJDRENSXGsICgAHPnoJX0VBXFxbAxc4LA1dA2dYVkRzWAgRFg0OVQNDHA1FWVIR","queueTime":0,"applicationTime":2539,"atts":"SBJWRF8fHx8=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

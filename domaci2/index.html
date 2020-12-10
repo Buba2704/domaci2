@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HiHoney</title>
+    <link href='https://fonts.googleapis.com/css?family=Amatic SC' rel='stylesheet'>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="media/media_style.css">
+</head>
+<body>
+    <div class="header">
+        <div class="kolona">
+            <div id="logo-i-social">
+                <div id="logo">
+                    <img src="slike/Logo.png" alt="Loading Logo picture...">
+                </div>
+                <div id="social">
+                    <a href="#">
+                        <img src="slike/facebookbolji.webp" alt="">
+                    </a>
+                    <a href="#">
+                        <img src="slike/instabolji.webp" alt="">
+                    </a>
+                </div>
+            </div>
+            <nav id="main-manu">
+                <div>
+                    <a href="index.html" class="aktivan">Početna</a>
+                </div>
+                <div>
+                    <a href="#" >O_proizvodima</a>
+                    <div>
+                        <a href="ostali_proizvodi.html">Ostali proizvodi</a>
+                        <a href="proizvodi.html">Med</a>
+                    </div>
+                </div>
+                <div>
+                    <a href="zanimljivosti.html">Zanimljivosti</a>
+                  </div>
+                  <div>
+                    <a href="kontakt1.html">Kontakt</a>
+                  </div>
+                <div>
+                    <a href="korpa.html">
+                        <img src="https://assets1.risnews.com/styles/content_sm/s3/2018-04/shopping-cart.png?itok=LUk_XbaE" alt="">
+                    </a>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <div class="page" id="pocetna">
+        <div class="kolona">
+            <div class = "poruka">
+                <br>
+                <br>
+                <script>
+                    var datum = new Date();
+                    var sat = datum.getHours();
+                    if(sat<12){
+                        document.write("Dobro jutro!");
+                    }
+                    else if(sat<18){
+                        document.write("Dobar dan!");
+                    }
+                    else{
+                        document.write("Dobro veče!");
+                    }
+                </script>
+            </div>
+            <div class="textdiv">HiHoney</div>
+        </div>
+    </div>
+    
+
+
+
+
+</body>
+</html>

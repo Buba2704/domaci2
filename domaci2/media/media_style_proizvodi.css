@@ -1,0 +1,140 @@
+.header{
+    /* border-bottom: red; */
+    /* background-color: yellow; */
+    
+}
+.page{
+    /* border: 1px solid red; */
+    /* background-color: coral; */
+}
+.page .kolona{
+    /* border: 3px solid black; */
+}
+@media all and (max-width:1300px){
+    .kolona{
+        width: 90%;
+    }
+    .page{
+        background: none;
+    }
+}
+@media all and (max-width:1024px){
+    .okvir{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        height: 3000px;
+    }
+    .page{
+        height: 3100px;
+    }
+    .page .kolona{
+        height: 3050px;
+    }
+
+}
+@media all and (max-width:670px){
+    .okvir{
+        height: 2500px;
+    }
+    .page{
+        height: 2600px;
+    }
+    .page .kolona{
+        height: 2550px;
+    }
+
+}
+
+@media all and (max-width:460px){
+    .okvir{
+        height: 1700px;
+    }
+    .page{
+        height: 1800px;
+    }
+    .page .kolona{
+        height: 1750px;
+    }
+    .okvir>div>div{
+        /* background-color: darkcyan; */
+        font-size: 14px;
+    }
+}
+
+@media all and (max-width:360px){
+    .okvir{
+        height: 1200px;
+    }
+    .page{
+        height: 1300px;
+    }
+    .page .kolona{
+        height: 1250px;
+    }
+    .okvir>div>div{
+        /* background-color: blue; */
+        font-size: 11px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media all and (max-width:510px){
+    .kolona{
+        width: 95%;
+    }
+    #social a img{
+        width: 25px;
+        margin: 10px 3px;
+    }
+    #logo img{
+        width: 60px;
+    }
+    #main-manu div{
+        font-size: 15px;
+    }
+    #main-manu div img{
+        width: 15px;
+    }
+}
+
+@media all and (max-width:400px){
+    #main-manu div{
+        font-size: 12px;
+    }
+    #main-manu div img{
+        width: 11px;
+    }
+}
+
+@media all and (max-width:320px){
+    #main-manu div img{
+        width: 10px;
+    }
+    #main-manu  > div > a{
+        padding: 5px;
+    }
+    #social a img{
+        width: 15px;
+        margin: 10px 3px;
+    }
+    #logo img{
+        width: 45px;
+    }
+}

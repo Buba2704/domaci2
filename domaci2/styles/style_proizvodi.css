@@ -1,0 +1,143 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Amatic SC';
+}
+.header{
+    /* border-bottom: red;
+    background-color: burlywood; */
+    
+}
+.page{
+    /* border: 1px solid red; */
+    background-image: url(../slike/Pozadine/pcelice.png);
+    background-size: 15%;
+}
+.footer{
+  
+}
+.kolona{
+    width: 70%;
+    margin: 0px auto;
+}
+
+.page .kolona{
+    height: 1650px;
+    font-weight: bold;
+    background-color: white;
+    padding: 0px 10px;
+}
+#logo-i-social{
+    display: flex;
+}
+#logo{
+    flex-grow: 1;
+    align-items: center;
+}
+#logo img{
+    width: 80px;
+}
+#social{
+    flex-grow: 1;
+    text-align: right;
+}
+#social a{
+    text-decoration: none;
+}
+#social a img{
+    width: 30px;
+    margin: 10px 5px;
+}
+
+
+/* ******************************** */
+
+
+
+#main-manu{
+    display: flex;
+    font-size: 22px;
+}
+#main-manu div img{
+    width: 22px;
+}
+#main-manu > div{
+    flex-grow: 1;
+    /* flex-basis: 0; */
+    /* border: 1px solid black; */
+    position: relative;
+    background-color: rgb(191, 132, 5);
+}
+#main-manu  > div > a{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(191, 132, 5);
+    transition: 300ms;
+    padding: 10px;
+}
+
+#main-manu > div > a:hover{
+    background-color:   rgb(255, 212, 118);
+    color: rgb(191, 132, 5);
+}
+#main-manu > div > div > a{
+    display: block;
+    padding: 5px 0px;
+    text-decoration: none;
+    color: white;
+    border-bottom: 1px solid white;
+    text-align: center;
+    margin: 0px;
+}
+#main-manu > div > div{
+    display: none;
+    position: absolute;
+    width: 100%;
+    background-color: rgb(191, 132, 5);
+}
+#main-manu > div > div > a:hover{
+    background-color: rgb(255, 212, 118);
+    color: rgb(191, 132, 5);
+}
+#main-manu > div:hover > div{
+    display: block;
+}
+#main-manu > div > .aktivan{
+    background-color: rgb(169, 116, 3);
+}
+
+
+
+/* ******************************** */
+
+
+
+.okvir{
+    /* border: 5px solid blue; */
+    /* background-color: rgb(182, 230, 219); */
+    width: 90%;
+    height: 1600px;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.okvir > div{
+    /* border: 1px solid rgb(255, 0, 221); */
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.okvir > div > div{
+    text-align: center;
+    font-family: 'Amatic SC';
+    font-size: 20px;
+    margin: 1% 10%;
+}
+.okvir>div>img{
+    width: 100%;
+    max-width: 400px;
+    margin: 0px auto;
+}

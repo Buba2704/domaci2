@@ -1,0 +1,140 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Amatic SC';
+}
+.header{
+    /* border-bottom: red;
+    background-color: burlywood; */
+    
+}
+.page{
+    /* border: 5px solid red; */
+    background-image: url(../slike/Pozadine/pcelice.png);
+    background-size: 15%;
+}
+.footer{
+  
+}
+.kolona{
+    width: 70%;
+    margin: 0px auto;
+}
+
+.page .kolona{
+    height: 1200px;
+    font-weight: bold;
+    background-color: white;
+    padding: 0px 10px;
+}
+#logo-i-social{
+    display: flex;
+}
+#logo{
+    flex-grow: 1;
+    align-items: center;
+}
+#logo img{
+    width: 80px;
+}
+#social{
+    flex-grow: 1;
+    text-align: right;
+}
+#social a{
+    text-decoration: none;
+}
+#social a img{
+    width: 30px;
+    margin: 10px 5px;
+}
+
+
+/* ******************************** */
+
+
+
+#main-manu{
+    display: flex;
+    font-size: 22px;
+}
+#main-manu div img{
+    width: 22px;
+}
+#main-manu > div{
+    flex-grow: 1;
+    /* flex-basis: 0; */
+    /* border: 1px solid black; */
+    position: relative;
+    background-color: rgb(191, 132, 5);
+}
+#main-manu  > div > a{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(191, 132, 5);
+    transition: 300ms;
+    padding: 10px;
+}
+
+#main-manu > div > a:hover{
+    background-color:   rgb(255, 212, 118);
+    color: rgb(191, 132, 5);
+}
+#main-manu > div > div > a{
+    display: block;
+    padding: 5px 0px;
+    text-decoration: none;
+    color: white;
+    border-bottom: 1px solid white;
+    text-align: center;
+    margin: 0px;
+}
+#main-manu > div > div{
+    display: none;
+    position: absolute;
+    width: 100%;
+    background-color: rgb(191, 132, 5);
+}
+#main-manu > div > div > a:hover{
+    background-color: rgb(255, 212, 118);
+    color: rgb(191, 132, 5);
+}
+#main-manu > div:hover > div{
+    display: block;
+}
+#main-manu > div > .aktivan{
+    background-color: rgb(169, 116, 3);
+}
+
+
+/* ******************************** */
+
+
+
+
+#accordion {
+    background: url(../slike/Pozadine/pozadina3.jpg);
+    background-size: cover;
+    font-family: 'Amatic SC';
+    font-weight: bold;
+    color: rgb(139, 106, 46);
+    text-align: justify;
+}
+#accordion > h3 {
+    font-size: 4vh;
+    margin: 0px;
+}
+#accordion > div > p {
+    font-size: 3vh;
+    margin: 0px;
+    margin-bottom: 5px;
+}
+ul > li {
+    font-size: 3vh;
+}
+#map{
+    width: 100%;
+    height: 500px;
+}

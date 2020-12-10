@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HiHoney</title>
+    <link href='https://fonts.googleapis.com/css?family=Amatic SC' rel='stylesheet'>
+    <link rel="stylesheet" href="styles/style_korpa.css">
+    <link rel="stylesheet" href="media/media_style_korpa.css">
+</head>
+<body>
+    <div class="header">
+        <div class="kolona">
+            <div id="logo-i-social">
+                <div id="logo">
+                    <img src="slike/Logo.png" alt="Loading Logo picture...">
+                </div>
+                <div id="social">
+                    <a href="#">
+                        <img src="slike/facebookbolji.webp" alt="">
+                    </a>
+                    <a href="#">
+                        <img src="slike/instabolji.webp" alt="">
+                    </a>
+                </div>
+            </div>
+            <nav id="main-manu">
+                <div>
+                    <a href="index.html">Početna</a>
+                </div>
+                <div>
+                    <a href="#" >O_proizvodima</a>
+                    <div>
+                        <a href="ostali_proizvodi.html">Ostali proizvodi</a>
+                        <a href="proizvodi.html">Med</a>
+                    </div>
+                </div>
+                <div>
+                    <a href="zanimljivosti.html">Zanimljivosti</a>
+                  </div>
+                  <div>
+                    <a href="kontakt1.html">Kontakt</a>
+                  </div>
+                <div class="aktivan">
+                    <a href="korpa.html" class="aktivan">
+                        <img src="https://assets1.risnews.com/styles/content_sm/s3/2018-04/shopping-cart.png?itok=LUk_XbaE" alt="">
+                    </a>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <div class="page">
+        <div class="kolona">
+            <div class="info_artikal">
+                <div class="ime_artikla">
+                    <p>Ime artikla</p>
+                </div>
+                <div class="dugmici_artikla">
+                    
+                </div>
+                <div class="kolicina_artikla">
+                    <p>Kolicina</p>
+                </div>
+                <div class="nista"></div>
+                <div class="jedinicna_cena_artikla" id="jca">
+                    <p>Jedinicna cena</p>
+                </div>
+            </div>
+            <div class="artikal">
+                <div class="ime_artikla">
+                    <p>Bagremov med</p>
+                </div>
+                <div class="dugmici_artikla">
+                    <button class="vise" onclick="kupovina(1),kolicina(1)">+</button>
+                    <button class="manje" onclick="obrisi(1)">-</button>
+                    
+                </div>
+                <div class="kolicina_artikla">
+                    <p id="kom1" class="komada">0</p>
+                </div>
+                <div class="nista"></div>
+                <div class="jedinicna_cena_artikla">
+                    <p>600</p>
+                </div>
+            </div>
+            <div class="artikal">
+                <div class="ime_artikla">
+                    <p>Brohni med</p>
+                </div>
+                <div class="dugmici_artikla">
+                    <button class="vise" onclick="kupovina(2),kolicina(2)">+</button>
+                    <button class="manje" onclick="obrisi(2)">-</button>
+                    
+                </div>
+                <div class="kolicina_artikla">
+                    <p id="kom2" class="komada">0</p>
+                </div>
+                <div class="nista"></div>
+                <div class="jedinicna_cena_artikla">
+                    <p>700</p>
+                </div>
+            </div>
+            <div class="artikal">
+                <div class="ime_artikla">
+                    <p>Livadski med</p>
+                </div>
+                <div class="dugmici_artikla">
+                    <button class="vise" onclick="kupovina(3),kolicina(3)">+</button>
+                    <button class="manje" onclick="obrisi(3)">-</button>
+                    
+                </div>
+                <div class="kolicina_artikla">
+                    <p id="kom3" class="komada">0</p>
+                </div>
+                <div class="nista"></div>
+                <div class="jedinicna_cena_artikla">
+                    <p>500</p>
+                </div>
+            </div>
+            <div class="artikal">
+                <div class="ime_artikla">
+                    <p>Suncokretov med</p>
+                </div>
+                <div class="dugmici_artikla">
+                    <button class="vise" onclick="kupovina(4),kolicina(4)">+</button>
+                    <button class="manje" onclick="obrisi(4)">-</button>
+                    
+                </div>
+                <div class="kolicina_artikla">
+                    <p id="kom4" class="komada">0</p>
+                </div>
+                <div class="nista"></div>
+                <div class="jedinicna_cena_artikla">
+                    <p>500</p>
+                </div>
+            </div>
+            <div class="artikal">
+                <div class="ime_artikla">
+                    <p>Med sa zelenim orasima</p>
+                </div>
+                <div class="dugmici_artikla">
+                    <button class="vise" onclick="kupovina(5),kolicina(5)">+</button>
+                    <button class="manje" onclick="obrisi(5)">-</button>
+                    
+                </div>
+                <div class="kolicina_artikla">
+                    <p id="kom5" class="komada">0</p>
+                </div>
+                <div class="nista"></div>
+                <div class="jedinicna_cena_artikla">
+                    <p>750</p>
+                </div>
+            </div>
+            <div class="artikal">
+                <div class="ime_artikla">
+                    <p>Šumski med</p>
+                </div>
+                <div class="dugmici_artikla">
+                    <button class="vise" onclick="kupovina(6),kolicina(6)">+</button>
+                    <button class="manje" onclick="obrisi(6)">-</button>
+                    
+                </div>
+                <div class="kolicina_artikla">
+                    <p id="kom6" class="komada">0</p>
+                </div>
+                <div class="nista"></div>
+                <div class="jedinicna_cena_artikla">
+                    <p>1100</p>
+                </div>
+            </div>
+            <div class="artikal">
+                <div class="ime_artikla">
+                    <p>Prostata med</p>
+                </div>
+                <div class="dugmici_artikla">
+                    <button class="vise" onclick="kupovina(7),kolicina(7)">+</button>
+                    <button class="manje" onclick="obrisi(7)">-</button>
+                    
+                </div>
+                <div class="kolicina_artikla">
+                    <p id="kom7" class="komada">0</p>
+                </div>
+                <div class="nista"></div>
+                <div class="jedinicna_cena_artikla">
+                    <p>750</p>
+                </div>
+            </div>
+            <div class="artikal">
+                <div class="ime_artikla">
+                    <p>Saće u medu</p>
+                </div>
+                <div class="dugmici_artikla">
+                    <button class="vise" onclick="kupovina(8),kolicina(8)">+</button>
+                    <button class="manje" onclick="obrisi(8)">-</button>
+                    
+                </div>
+                <div class="kolicina_artikla">
+                    <p id="kom8" class="komada">0</p>
+                </div>
+                <div class="nista"></div>
+                <div class="jedinicna_cena_artikla">
+                    <p>700</p>
+                </div>
+            </div>
+            <div class="artikal">
+                <div class="ime_artikla">
+                    <p>Seme koprive u medu</p>
+                </div>
+                <div class="dugmici_artikla">
+                    <button class="vise" onclick="kupovina(9),kolicina(9)">+</button>
+                    <button class="manje" onclick="obrisi(9)">-</button>
+                    
+                </div>
+                <div class="kolicina_artikla">
+                    <p id="kom9" class="komada">0</p>
+                </div>
+                <div class="nista"></div>
+                <div class="jedinicna_cena_artikla">
+                    <p>700</p>
+                </div>
+            </div>
+            <div class="artikal">
+                <div class="ime_artikla">
+                    <p>Propolis krema znk</p>
+                </div>
+                <div class="dugmici_artikla">
+                    <button class="vise" onclick="kupovina(10),kolicina(10)">+</button>
+                    <button class="manje" onclick="obrisi(10)">-</button>
+                    
+                </div>
+                <div class="kolicina_artikla">
+                    <p id="kom10" class="komada">0</p>
+                </div>
+                <div class="nista"></div>
+                <div class="jedinicna_cena_artikla">
+                    <p>500</p>
+                </div>
+            </div>
+            <div class="artikal">
+                <div class="ime_artikla">
+                    <p>Hidrantna krema</p>
+                </div>
+                <div class="dugmici_artikla">
+                    <button class="vise" onclick="kupovina(11),kolicina(11)">+</button>
+                    <button class="manje" onclick="obrisi(11)">-</button>
+                    
+                </div>
+                <div class="kolicina_artikla">
+                    <p id="kom11" class="komada">0</p>
+                </div>
+                <div class="nista"></div>
+                <div class="jedinicna_cena_artikla">
+                    <p>750</p>
+                </div>
+            </div>
+            <div class="artikal">
+                <div class="ime_artikla">
+                    <p>Medovača</p>
+                </div>
+                <div class="dugmici_artikla">
+                    <button class="vise" onclick="kupovina(12),kolicina(12)">+</button>
+                    <button class="manje" onclick="obrisi(12)">-</button>
+                    
+                </div>
+                <div class="kolicina_artikla">
+                    <p id="kom12" class="komada">0</p>
+                </div>
+                <div class="nista"></div>
+                <div class="jedinicna_cena_artikla">
+                    <p>800</p>
+                </div>
+            </div>
+            <div class="artikal">
+                <div class="ime_artikla">
+                    <p>Perga</p>
+                </div>
+                <div class="dugmici_artikla">
+                    <button class="vise" onclick="kupovina(13),kolicina(13)">+</button>
+                    <button class="manje" onclick="obrisi(13)">-</button>
+                    
+                </div>
+                <div class="kolicina_artikla">
+                    <p id="kom13" class="komada">0</p>
+                </div>
+                <div class="nista"></div>
+                <div class="jedinicna_cena_artikla">
+                    <p>1250</p>
+                </div>
+            </div>
+            <div class="artikal">
+                <div class="ime_artikla">
+                    <p>Polen prah u granulama</p>
+                </div>
+                <div class="dugmici_artikla">
+                    <button class="vise" onclick="kupovina(14),kolicina(14)">+</button>
+                    <button class="manje" onclick="obrisi(14)">-</button>
+                    
+                </div>
+                <div class="kolicina_artikla">
+                    <p id="kom14" class="komada">0</p>
+                </div>
+                <div class="nista"></div>
+                <div class="jedinicna_cena_artikla">
+                    <p>200</p>
+                </div>
+            </div>
+            <div class="artikal">
+                <div class="ime_artikla">
+                    <p>Propolis</p>
+                </div>
+                <div class="dugmici_artikla">
+                    <button class="vise" onclick="kupovina(15),kolicina(15)">+</button>
+                    <button class="manje" onclick="obrisi(15)">-</button>
+                    
+                </div>
+                <div class="kolicina_artikla">
+                    <p id="kom15" class="komada">0</p>
+                </div>
+                <div class="nista"></div>
+                <div class="jedinicna_cena_artikla">
+                    <p>300</p>
+                </div>
+            </div>
+
+            <div class="artikal">
+                <div class="ime_artikla">
+                    <p>Propolis sprej</p>
+                </div>
+                <div class="dugmici_artikla">
+                    <button class="vise" onclick="kupovina(16),kolicina(16)">+</button>
+                    <button class="manje" onclick="obrisi(16)">-</button>
+                    
+                </div>
+                <div class="kolicina_artikla">
+                    <p id="kom16" class="komada">0</p>
+                </div>
+                <div class="nista"></div>
+                <div class="jedinicna_cena_artikla">
+                    <p>250</p>
+                </div>
+            </div>
+            
+            <div class="artikal">
+                <div class="ime_artikla">
+                    <p>Propolis krema scn</p>
+                </div>
+                <div class="dugmici_artikla">
+                    <button class="vise" onclick="kupovina(17),kolicina(17)">+</button>
+                    <button class="manje" onclick="obrisi(17)">-</button>
+                    
+                </div>
+                <div class="kolicina_artikla">
+                    <p id="kom17" class="komada">0</p>
+                </div>
+                <div class="nista"></div>
+                <div class="jedinicna_cena_artikla">
+                    <p>500</p>
+                </div>
+            </div>
+            
+            <div class="kasa">
+                <div class="nista_kasa">
+                    <div class="dugme">
+                        Obrisi korpu
+                        <button onclick="myFunction()">Obrisi</button>
+                    </div>
+                </div>
+                <div class="slika_kasa">
+                    <div>
+                    <img src="https://assets1.risnews.com/styles/content_sm/s3/2018-04/shopping-cart.png?itok=LUk_XbaE" alt="">
+                    </div>
+                </div>
+                <div class="ukupno_naziv">
+                    <p>Za plaćanje:</p>
+                </div>
+                <div class="ukupno_cena">
+                    <p id="rez">0</p>
+                </div>
+            </div>
+
+
+
+
+            <div id="slika_shop">
+                <img src="https://classroomclipart.com/images/gallery/Animations/Animals/bee_hive_animation_5C.gif" alt=""> 
+            </div>
+            <div class="signup-form">
+                
+                <form action="" id="forma" name="forma">
+                    <h1>Unesite podatke: </h1> 
+                    <input type="text" id="imePrezime" name="IPR" placeholder="Unesite ime i prezime" class="txtb" required>
+                    <br>
+                    <input type="email" placeholder="Unesite email" id="email" class="txtb" required>
+                    <br>
+                    <input type="number" placeholder="Unesite kontakt" id="number" class="txtb" required>
+                    <br>
+                    <input type="text" placeholder="Unesite dodatne zahteve" id="dodatno" class="txtb" >
+                    <br>
+                    <div class="radio-toolbar">
+                        <input type="radio" id="radioApple" name="radioFruit" value="apple" checked>
+                        <label for="radioApple">Platite karticom</label>
+                        <input type="radio" id="radioBanana" name="radioFruit" value="banana">
+                        <label for="radioBanana">Platite pouzecem</label>
+                    </div>
+                    <input type="submit" value="Kupi" class="signup-btn" onclick="popUp()">
+                    
+                    <input type="reset" value="Reset" class="close-btn">
+
+                    
+                </form>
+                <div id = postojiNalog>
+                    <a href="" ><b>Već ste izvršili kupovinu?</b></a>
+                </div>
+            </div>
+    
+                
+        </div>
+    </div>
+    
+
+
+
+    <script src="scripts/javascript.js"></script>
+</body>
+</html>
